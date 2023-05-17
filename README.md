@@ -16,3 +16,12 @@ module.exports = {
   extends: ["ozum"],
 };
 ```
+
+# Plugins & Configs
+
+- TypeScript
+- Airbnb Base
+- Prettier Plugin & Prettier Config
+- Import Plugin
+- Typescript Import Resolver
+- Jest
