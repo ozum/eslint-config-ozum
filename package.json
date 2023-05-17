@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ozum",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Highly opinionated ESLint configuration for various TypeScript projects.",
   "main": "index.js",
   "scripts": {
