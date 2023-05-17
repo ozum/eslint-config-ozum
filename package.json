@@ -24,7 +24,6 @@
   "homepage": "https://github.com/ozum/eslint-config-ozum#readme",
   "dependencies": {
     "@typescript-eslint/parser": "^5.49.0",
-    "eslint": "^8.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-import-resolver-typescript": "^3.5.3"
