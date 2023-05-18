@@ -26,7 +26,6 @@ module.exports = {
           "plugin:import/recommended", // import/export syntax, and prevent issues with misspelling of file paths and import names.
           "plugin:import/typescript", // TypeScript support for plugin:import/recommended. Used `eslint-plugin-i` package instead of `eslint-plugin-import` using syntax `npm:eslint-plugin-i@^2.26.0-2` in package.json.
           "plugin:prettier/recommended", // RUN Prettier as ESLint rule by using `prettier/eslint-plugin-prettier` and TURN OFF ESLint rules which conflict with Prettier by using `prettier/eslint-config-prettier`.
-          "prettier" // Disable any ESLint rule related to prettier.
         ],
         plugins: ["@typescript-eslint", "import"],
         settings: {
@@ -71,7 +70,6 @@ module.exports = {
           "plugin:jest/recommended", // TURN ON Jest rules by using "jest-community/eslint-plugin-jest".
           "airbnb-base", // TURN ON airbnb-base rules.
           "plugin:prettier/recommended", // RUN Prettier as ESLint rule by using `prettier/eslint-plugin-prettier` and TURN OFF ESLint rules which conflict with Prettier by using `prettier/eslint-config-prettier`.
-          "prettier" // Disable any ESLint rule related to prettier.
         ],
         rules: {
           "import/extensions": ["error", "ignorePackages", { js: "never", jsx: "never", ts: "never", tsx: "never" }],
