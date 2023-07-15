@@ -2,10 +2,13 @@
   "name": "eslint-config-ozum",
   "version": "0.0.5",
   "description": "Highly opinionated ESLint configuration for various TypeScript projects.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "exports": {
+    ".": "./lib/recommended.js",
+    "./minimum": "./lib/minimum.js",
+    "./recommended": "./lib/recommended.js",
+    "./maximum": "./lib/maximum.js"
   },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ozum/eslint-config-ozum.git"
@@ -23,16 +26,19 @@
   },
   "homepage": "https://github.com/ozum/eslint-config-ozum#readme",
   "dependencies": {
-    "@typescript-eslint/parser": "^5.49.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-import-resolver-typescript": "^3.5.3"
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^8.8.0",
+    "is-ci": "^3.0.1"
   },
   "peerDependencies": {
-    "eslint": ">=8",
-    "@typescript-eslint/eslint-plugin": "^5.49.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jest": "^27.2.1",
-    "eslint-plugin-prettier": "^4.2.1"
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "eslint": "^8.44.0",
+    "eslint-plugin-jest": "^27.2.3",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-unicorn": "^47.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
   }
 }
