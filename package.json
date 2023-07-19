@@ -8,6 +8,9 @@
     "./recommended": "./lib/recommended.js",
     "./maximum": "./lib/maximum.js"
   },
+  "scripts": {
+    "release:patch": "git pull && git add -A && git commit && pnpm version patch && git push --follow-tags"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ozum/eslint-config-ozum.git"
