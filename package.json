@@ -9,7 +9,7 @@
     "./maximum": "./lib/maximum.js"
   },
   "scripts": {
-    "release:patch": "git pull && git add -A && git commit && pnpm version patch && git push --follow-tags"
+    "release:patch": "git pull && git add -A && git commit && pnpm version patch && git push --follow-tags && pnpm publish"
   },
   "repository": {
     "type": "git",
