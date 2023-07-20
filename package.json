@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ozum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Highly opinionated ESLint configuration for various TypeScript projects.",
   "exports": {
     ".": "./lib/recommended.js",
