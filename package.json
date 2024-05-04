@@ -28,21 +28,21 @@
   },
   "homepage": "https://github.com/ozum/eslint-config-ozum#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.5.0",
-    "@typescript-eslint/parser": "^7.5.0",
-    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint": "^9.2.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-jest": "^27.9.0",
+    "eslint-plugin-jest": "^28.5.0",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-unicorn": "^51.0.1"
+    "eslint-plugin-unicorn": "^52.0.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.3.1",
-    "eslint": "^8.57.0",
-    "eslint-plugin-jest": "^27.9.0",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "eslint": "^9.2.0",
+    "eslint-plugin-jest": "^28.5.0",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-unicorn": "^51.0.1"
+    "eslint-plugin-unicorn": "^52.0.0"
   },
   "devDependencies": {
     "prettier": "^3.2.5"
